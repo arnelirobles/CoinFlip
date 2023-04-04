@@ -51,3 +51,21 @@ tr:nth-child(even) {
 #pageInfo {
     margin: 0 10px;
 }
+
+#historyHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#clearHistoryBtn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#clearHistoryBtn:hover {
+    background-color: #c82333;
+}
