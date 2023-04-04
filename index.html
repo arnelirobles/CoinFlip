@@ -16,6 +16,23 @@
             <p>Games played: <span id="gamesPlayed">0</span></p>
             <p>Games won: <span id="gamesWon">0</span></p>
         </div>
+        <h2>History</h2>
+        <table id="history">
+            <thead>
+                <tr>
+                    <th>Game Number</th>
+                    <th>Result</th>
+                    <th>Win/Loss</th>
+                </tr>
+            </thead>
+            <tbody id="historyBody">
+            </tbody>
+        </table>
+        <div id="pagination">
+            <button id="prevBtn" disabled>Previous</button>
+            <span id="pageInfo">Page 1</span>
+            <button id="nextBtn" disabled>Next</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
